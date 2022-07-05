@@ -1,0 +1,14 @@
+configName: CFDtest2_J18A
+folderName: CFDtest2_J18A
+format_version: v1.0
+frameworkPath: ..\..\Harmony3
+processor: ATSAMC21J18A
+projectName: CFDtest2_J18A
+settings:
+  PackageFilter: bootloader;bootloader_apps_can;bootloader_apps_uart;bsp;classb_sam_e5x_d5x;core;core_apps_sam_c20_c21;core_apps_sam_d5x_e5x;crypto;crypto_apps_encrypt_decrypt;crypto_apps_large_hash;crypto_apps_speed_test;csp;csp_apps_sam_c20_c21;csp_apps_sam_d5x_e5x;dev_packs;gfx;gfx_apps_sam_c20_c21;gfx_apps_sam_d5x_e5x;harmony-services;mc_apps_sam_c2x;mc_apps_sam_d5x_e5x;motor_control;net;quick_docs;touch;usb;x2c
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMC21_DFP\3.5.95\samc21\atdf\ATSAMC21J18A.atdf
