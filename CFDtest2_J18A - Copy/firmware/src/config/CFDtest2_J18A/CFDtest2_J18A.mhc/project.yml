@@ -6,20 +6,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: E45D1648EFC10229D7BE94DB19221FF7
-- generatedChecksum: 57DC0AC58FDFC466618B7A92B9449585
+- generatedChecksum: 4A8E941AE2FFE5509021A713C3B40719
   logicalPath: config/CFDtest2_J18A
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 57DC0AC58FDFC466618B7A92B9449585
-- generatedChecksum: 0C999F27DF370E5B0DE9CCB04B354738
+  userChecksum: 4A8E941AE2FFE5509021A713C3B40719
+- generatedChecksum: AE9776CEE123CA834A8C862981281796
   logicalPath: config/CFDtest2_J18A
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0C999F27DF370E5B0DE9CCB04B354738
+  userChecksum: AE9776CEE123CA834A8C862981281796
 - generatedChecksum: 6513F2461B8F476B68CA73906086047F
   logicalPath: config/CFDtest2_J18A
   name: libc_syscalls.c
@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: ADB1E57A0B677385B3745B82F37B60FB
+- generatedChecksum: CAE5AB7C17AFF312BBC22BFF70F75DDA
   logicalPath: config/CFDtest2_J18A/peripheral/clock
   name: plib_clock.c
   physicalPath: peripheral/clock
   security: NON_SECURE
   type: SOURCE
-  userChecksum: ADB1E57A0B677385B3745B82F37B60FB
+  userChecksum: CAE5AB7C17AFF312BBC22BFF70F75DDA
 - generatedChecksum: C3ECDED3D6301DB0DE622293ED615D21
   logicalPath: config/CFDtest2_J18A/peripheral/evsys
   name: plib_evsys.c
@@ -48,41 +48,55 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: C3ECDED3D6301DB0DE622293ED615D21
-- generatedChecksum: 088FD67B8862B2BB3D48867A6A30B6C9
+- generatedChecksum: 5AD2EEE30813979F524CF2F6E90FB93E
   logicalPath: config/CFDtest2_J18A/peripheral/nvic
   name: plib_nvic.c
   physicalPath: peripheral/nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 088FD67B8862B2BB3D48867A6A30B6C9
-- generatedChecksum: 1A6B34827B2EAC8D3DE1BA775FD84592
+  userChecksum: 5AD2EEE30813979F524CF2F6E90FB93E
+- generatedChecksum: 1C795C8A1D7CAEFA2C2D35E5634115F8
   logicalPath: config/CFDtest2_J18A/peripheral/nvmctrl
   name: plib_nvmctrl.c
   physicalPath: peripheral/nvmctrl
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1A6B34827B2EAC8D3DE1BA775FD84592
-- generatedChecksum: A8D51152BC524FB8D468EF21D9CE2559
+  userChecksum: 1C795C8A1D7CAEFA2C2D35E5634115F8
+- generatedChecksum: F0669D528B6BADD12B7A2066A89126E4
   logicalPath: config/CFDtest2_J18A/peripheral/port
   name: plib_port.c
   physicalPath: peripheral/port
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A8D51152BC524FB8D468EF21D9CE2559
-- generatedChecksum: 565BBD08A35C8F4273327D0668C31E9D
+  userChecksum: F0669D528B6BADD12B7A2066A89126E4
+- generatedChecksum: 91C975E95E1FFA1BB67333C15F6CA6AB
   logicalPath: config/CFDtest2_J18A/peripheral/sercom/usart
   name: plib_sercom4_usart.c
   physicalPath: peripheral/sercom/usart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 565BBD08A35C8F4273327D0668C31E9D
-- generatedChecksum: 159E8DEC967119DE2FB240B9CA3A1035
+  userChecksum: 91C975E95E1FFA1BB67333C15F6CA6AB
+- generatedChecksum: 61D028764B7D3E72E836FB3D43E88F7B
   logicalPath: config/CFDtest2_J18A/peripheral/systick
   name: plib_systick.c
   physicalPath: peripheral/systick
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 159E8DEC967119DE2FB240B9CA3A1035
+  userChecksum: 61D028764B7D3E72E836FB3D43E88F7B
+- generatedChecksum: D712541D208C80B1F1CDF734FE038870
+  logicalPath: config/CFDtest2_J18A/peripheral/tc
+  name: plib_tc0.c
+  physicalPath: peripheral/tc
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: D712541D208C80B1F1CDF734FE038870
+- generatedChecksum: 127EE9EE26827D290F4439DE856638CA
+  logicalPath: config/CFDtest2_J18A/peripheral/tcc
+  name: plib_tcc0.c
+  physicalPath: peripheral/tcc
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 127EE9EE26827D290F4439DE856638CA
 - generatedChecksum: 2645E564BD945DAED1424FD8D7B39330
   logicalPath: config/CFDtest2_J18A
   name: startup_xc32.c
@@ -244,13 +258,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 480700D08CDA1C9FB0F36C12C942394B
-- generatedChecksum: 39EF74B2E77E94DD923A48EA2BD76531
+- generatedChecksum: 539CFCC8DD17E1218A8E0208762AD0F5
   logicalPath: config/CFDtest2_J18A
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 39EF74B2E77E94DD923A48EA2BD76531
+  userChecksum: 539CFCC8DD17E1218A8E0208762AD0F5
 - generatedChecksum: 6CF17CD3E923B919E310979485EA4B8B
   logicalPath: config/CFDtest2_J18A
   name: device.h
@@ -384,13 +398,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 916A2A1DC0A207388C4DA897ABA347A3
-- generatedChecksum: CE89951F440266EECF0F1689C2336644
+- generatedChecksum: 06444C11F00CE79C694445F2DB6804E7
   logicalPath: config/CFDtest2_J18A
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: CE89951F440266EECF0F1689C2336644
+  userChecksum: 06444C11F00CE79C694445F2DB6804E7
 - generatedChecksum: 4184CB560F8B2F34750274C4EE4A2D3F
   logicalPath: packs/ATSAMC21J18A_DFP/component
   name: mclk.h
@@ -482,13 +496,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A20AFE625AC74BC9F735D04446588371
-- generatedChecksum: 0416F129713FDF989ACC1FC57065125C
+- generatedChecksum: 43892754FE8A3FF1C804F428A79A65F9
   logicalPath: config/CFDtest2_J18A/peripheral/clock
   name: plib_clock.h
   physicalPath: peripheral/clock
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0416F129713FDF989ACC1FC57065125C
+  userChecksum: 43892754FE8A3FF1C804F428A79A65F9
 - generatedChecksum: CCAEF942C66AF995876DFD85CEFF611F
   logicalPath: config/CFDtest2_J18A/peripheral/evsys
   name: plib_evsys.h
@@ -531,13 +545,41 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 881B1D67FA4C320BBD6AC86344695C9C
-- generatedChecksum: 71FC0B69A5959D5F85122445B3B5DDEC
+- generatedChecksum: 7ACAAF94C77D3472FBED281E8AD3C9DC
   logicalPath: config/CFDtest2_J18A/peripheral/systick
   name: plib_systick.h
   physicalPath: peripheral/systick
   security: NON_SECURE
   type: HEADER
-  userChecksum: 71FC0B69A5959D5F85122445B3B5DDEC
+  userChecksum: 7ACAAF94C77D3472FBED281E8AD3C9DC
+- generatedChecksum: B5BCF91769AD7C6070BBCE320D92B0EC
+  logicalPath: config/CFDtest2_J18A/peripheral/tc
+  name: plib_tc0.h
+  physicalPath: peripheral/tc
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: B5BCF91769AD7C6070BBCE320D92B0EC
+- generatedChecksum: C0A6E5B99D379FC08247B5FA465A54B3
+  logicalPath: config/CFDtest2_J18A/peripheral/tc
+  name: plib_tc_common.h
+  physicalPath: peripheral/tc
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: C0A6E5B99D379FC08247B5FA465A54B3
+- generatedChecksum: 1BBB5419B1EE1B2D10F59AAEA4169649
+  logicalPath: config/CFDtest2_J18A/peripheral/tcc
+  name: plib_tcc0.h
+  physicalPath: peripheral/tcc
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1BBB5419B1EE1B2D10F59AAEA4169649
+- generatedChecksum: A3CDE469C6A4D2725F34E837408E286C
+  logicalPath: config/CFDtest2_J18A/peripheral/tcc
+  name: plib_tcc_common.h
+  physicalPath: peripheral/tcc
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: A3CDE469C6A4D2725F34E837408E286C
 - generatedChecksum: CB095371D730D971BA8A8DFADB687710
   logicalPath: packs/ATSAMC21J18A_DFP/component
   name: pm.h

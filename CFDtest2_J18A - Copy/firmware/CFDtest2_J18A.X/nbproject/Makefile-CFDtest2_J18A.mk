@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c ../src/config/CFDtest2_J18A/initialization.c ../src/config/CFDtest2_J18A/interrupts.c ../src/config/CFDtest2_J18A/exceptions.c ../src/config/CFDtest2_J18A/startup_xc32.c ../src/config/CFDtest2_J18A/libc_syscalls.c ../src/main.c
+SOURCEFILES_QUOTED_IF_SPACED=../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c ../src/config/CFDtest2_J18A/initialization.c ../src/config/CFDtest2_J18A/interrupts.c ../src/config/CFDtest2_J18A/exceptions.c ../src/config/CFDtest2_J18A/startup_xc32.c ../src/config/CFDtest2_J18A/libc_syscalls.c ../src/main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1843999635/plib_clock.o ${OBJECTDIR}/_ext/1841850149/plib_evsys.o ${OBJECTDIR}/_ext/633589923/plib_nvic.o ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o ${OBJECTDIR}/_ext/633643074/plib_port.o ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o ${OBJECTDIR}/_ext/865585527/plib_systick.o ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o ${OBJECTDIR}/_ext/986139933/initialization.o ${OBJECTDIR}/_ext/986139933/interrupts.o ${OBJECTDIR}/_ext/986139933/exceptions.o ${OBJECTDIR}/_ext/986139933/startup_xc32.o ${OBJECTDIR}/_ext/986139933/libc_syscalls.o ${OBJECTDIR}/_ext/1360937237/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1843999635/plib_clock.o.d ${OBJECTDIR}/_ext/1841850149/plib_evsys.o.d ${OBJECTDIR}/_ext/633589923/plib_nvic.o.d ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o.d ${OBJECTDIR}/_ext/633643074/plib_port.o.d ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o.d ${OBJECTDIR}/_ext/865585527/plib_systick.o.d ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o.d ${OBJECTDIR}/_ext/986139933/initialization.o.d ${OBJECTDIR}/_ext/986139933/interrupts.o.d ${OBJECTDIR}/_ext/986139933/exceptions.o.d ${OBJECTDIR}/_ext/986139933/startup_xc32.o.d ${OBJECTDIR}/_ext/986139933/libc_syscalls.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1843999635/plib_clock.o ${OBJECTDIR}/_ext/1841850149/plib_evsys.o ${OBJECTDIR}/_ext/633589923/plib_nvic.o ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o ${OBJECTDIR}/_ext/633643074/plib_port.o ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o ${OBJECTDIR}/_ext/865585527/plib_systick.o ${OBJECTDIR}/_ext/1849617808/plib_tc0.o ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o ${OBJECTDIR}/_ext/986139933/initialization.o ${OBJECTDIR}/_ext/986139933/interrupts.o ${OBJECTDIR}/_ext/986139933/exceptions.o ${OBJECTDIR}/_ext/986139933/startup_xc32.o ${OBJECTDIR}/_ext/986139933/libc_syscalls.o ${OBJECTDIR}/_ext/1360937237/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1843999635/plib_clock.o.d ${OBJECTDIR}/_ext/1841850149/plib_evsys.o.d ${OBJECTDIR}/_ext/633589923/plib_nvic.o.d ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o.d ${OBJECTDIR}/_ext/633643074/plib_port.o.d ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o.d ${OBJECTDIR}/_ext/865585527/plib_systick.o.d ${OBJECTDIR}/_ext/1849617808/plib_tc0.o.d ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o.d ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o.d ${OBJECTDIR}/_ext/986139933/initialization.o.d ${OBJECTDIR}/_ext/986139933/interrupts.o.d ${OBJECTDIR}/_ext/986139933/exceptions.o.d ${OBJECTDIR}/_ext/986139933/startup_xc32.o.d ${OBJECTDIR}/_ext/986139933/libc_syscalls.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1843999635/plib_clock.o ${OBJECTDIR}/_ext/1841850149/plib_evsys.o ${OBJECTDIR}/_ext/633589923/plib_nvic.o ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o ${OBJECTDIR}/_ext/633643074/plib_port.o ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o ${OBJECTDIR}/_ext/865585527/plib_systick.o ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o ${OBJECTDIR}/_ext/986139933/initialization.o ${OBJECTDIR}/_ext/986139933/interrupts.o ${OBJECTDIR}/_ext/986139933/exceptions.o ${OBJECTDIR}/_ext/986139933/startup_xc32.o ${OBJECTDIR}/_ext/986139933/libc_syscalls.o ${OBJECTDIR}/_ext/1360937237/main.o
+OBJECTFILES=${OBJECTDIR}/_ext/1843999635/plib_clock.o ${OBJECTDIR}/_ext/1841850149/plib_evsys.o ${OBJECTDIR}/_ext/633589923/plib_nvic.o ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o ${OBJECTDIR}/_ext/633643074/plib_port.o ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o ${OBJECTDIR}/_ext/865585527/plib_systick.o ${OBJECTDIR}/_ext/1849617808/plib_tc0.o ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o ${OBJECTDIR}/_ext/986139933/initialization.o ${OBJECTDIR}/_ext/986139933/interrupts.o ${OBJECTDIR}/_ext/986139933/exceptions.o ${OBJECTDIR}/_ext/986139933/startup_xc32.o ${OBJECTDIR}/_ext/986139933/libc_syscalls.o ${OBJECTDIR}/_ext/1360937237/main.o
 
 # Source Files
-SOURCEFILES=../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c ../src/config/CFDtest2_J18A/initialization.c ../src/config/CFDtest2_J18A/interrupts.c ../src/config/CFDtest2_J18A/exceptions.c ../src/config/CFDtest2_J18A/startup_xc32.c ../src/config/CFDtest2_J18A/libc_syscalls.c ../src/main.c
+SOURCEFILES=../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c ../src/config/CFDtest2_J18A/initialization.c ../src/config/CFDtest2_J18A/interrupts.c ../src/config/CFDtest2_J18A/exceptions.c ../src/config/CFDtest2_J18A/startup_xc32.c ../src/config/CFDtest2_J18A/libc_syscalls.c ../src/main.c
 
 # Pack Options 
 PACK_COMMON_OPTIONS=-I "${CMSIS_DIR}/CMSIS/Core/Include"
@@ -110,170 +110,194 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1843999635/plib_clock.o: ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c  .generated_files/flags/CFDtest2_J18A/4dd51bdac08bf3da2df8efad7f42d2467b2e4aca .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1843999635/plib_clock.o: ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c  .generated_files/flags/CFDtest2_J18A/6bce6d46d5a2a7179cd6bbb4d4bc4f0c1a29cf3a .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1843999635" 
 	@${RM} ${OBJECTDIR}/_ext/1843999635/plib_clock.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1843999635/plib_clock.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1843999635/plib_clock.o.d" -o ${OBJECTDIR}/_ext/1843999635/plib_clock.o ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1841850149/plib_evsys.o: ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c  .generated_files/flags/CFDtest2_J18A/96dc3c8c22d165339ab72d3e5666949f277f2e22 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1841850149/plib_evsys.o: ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c  .generated_files/flags/CFDtest2_J18A/536179663f7f577587d10974897b80abc1f0a419 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1841850149" 
 	@${RM} ${OBJECTDIR}/_ext/1841850149/plib_evsys.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1841850149/plib_evsys.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1841850149/plib_evsys.o.d" -o ${OBJECTDIR}/_ext/1841850149/plib_evsys.o ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/633589923/plib_nvic.o: ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c  .generated_files/flags/CFDtest2_J18A/ede9f27e5faaf024f49fabb3881255df892d954c .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/633589923/plib_nvic.o: ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c  .generated_files/flags/CFDtest2_J18A/8e7e45e6490c38b6c067c60cb6c8cc907beb5eb6 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/633589923" 
 	@${RM} ${OBJECTDIR}/_ext/633589923/plib_nvic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/633589923/plib_nvic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/633589923/plib_nvic.o.d" -o ${OBJECTDIR}/_ext/633589923/plib_nvic.o ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o: ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c  .generated_files/flags/CFDtest2_J18A/3e648a3ecb55bd17a43406bb07826833511d114a .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o: ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c  .generated_files/flags/CFDtest2_J18A/f2b4b521c4267227b2fe1339a08ee5be127247ae .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1100060625" 
 	@${RM} ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o.d" -o ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/633643074/plib_port.o: ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c  .generated_files/flags/CFDtest2_J18A/c729ef6960574191c78edb1584ccce051116f6e4 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/633643074/plib_port.o: ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c  .generated_files/flags/CFDtest2_J18A/370192dcb1b96a25162356694c2dadd616c1ab99 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/633643074" 
 	@${RM} ${OBJECTDIR}/_ext/633643074/plib_port.o.d 
 	@${RM} ${OBJECTDIR}/_ext/633643074/plib_port.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/633643074/plib_port.o.d" -o ${OBJECTDIR}/_ext/633643074/plib_port.o ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o: ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c  .generated_files/flags/CFDtest2_J18A/5f71f514ed8ed4420d341a52b8bb5ec181c4c76 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o: ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c  .generated_files/flags/CFDtest2_J18A/f2165d156e07949892bcabafcadf7151d75e0003 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1978124120" 
 	@${RM} ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o.d" -o ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/865585527/plib_systick.o: ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c  .generated_files/flags/CFDtest2_J18A/7ff5fed0ae33a5213e3947cb6d5c84795f946567 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/865585527/plib_systick.o: ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c  .generated_files/flags/CFDtest2_J18A/42125fd3801c5c0ffd8d77b8d1d2593184589f3d .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/865585527" 
 	@${RM} ${OBJECTDIR}/_ext/865585527/plib_systick.o.d 
 	@${RM} ${OBJECTDIR}/_ext/865585527/plib_systick.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/865585527/plib_systick.o.d" -o ${OBJECTDIR}/_ext/865585527/plib_systick.o ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1579996951/xc32_monitor.o: ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c  .generated_files/flags/CFDtest2_J18A/4781163e841cee4e1ce70160fa745af5ccfd5828 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1849617808/plib_tc0.o: ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c  .generated_files/flags/CFDtest2_J18A/bc5bb6d2dce3433f6f43e55b7633ecd5b27875ad .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+	@${MKDIR} "${OBJECTDIR}/_ext/1849617808" 
+	@${RM} ${OBJECTDIR}/_ext/1849617808/plib_tc0.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1849617808/plib_tc0.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1849617808/plib_tc0.o.d" -o ${OBJECTDIR}/_ext/1849617808/plib_tc0.o ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/_ext/1503577101/plib_tcc0.o: ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c  .generated_files/flags/CFDtest2_J18A/663d5e5a917ffc6460e6c3f8d612a84779984413 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+	@${MKDIR} "${OBJECTDIR}/_ext/1503577101" 
+	@${RM} ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1503577101/plib_tcc0.o.d" -o ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/_ext/1579996951/xc32_monitor.o: ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c  .generated_files/flags/CFDtest2_J18A/67d0fa0b5974adb8caceac30dce9613efe01c31d .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1579996951" 
 	@${RM} ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1579996951/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/initialization.o: ../src/config/CFDtest2_J18A/initialization.c  .generated_files/flags/CFDtest2_J18A/6b1f027f0b5731411ac2d7dea2842ef41ae53348 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/initialization.o: ../src/config/CFDtest2_J18A/initialization.c  .generated_files/flags/CFDtest2_J18A/8af9261a2451bedce90de66c38e889a641936e29 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/initialization.o.d" -o ${OBJECTDIR}/_ext/986139933/initialization.o ../src/config/CFDtest2_J18A/initialization.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/interrupts.o: ../src/config/CFDtest2_J18A/interrupts.c  .generated_files/flags/CFDtest2_J18A/5c14da76bfe0a8edd08fdad58af69cc2ad7094ea .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/interrupts.o: ../src/config/CFDtest2_J18A/interrupts.c  .generated_files/flags/CFDtest2_J18A/676ccea228ad43808bf4fbca6becdd2c232885d9 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/interrupts.o.d" -o ${OBJECTDIR}/_ext/986139933/interrupts.o ../src/config/CFDtest2_J18A/interrupts.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/exceptions.o: ../src/config/CFDtest2_J18A/exceptions.c  .generated_files/flags/CFDtest2_J18A/4f387be446ddb2d6cbc123179e5005bea7a51c02 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/exceptions.o: ../src/config/CFDtest2_J18A/exceptions.c  .generated_files/flags/CFDtest2_J18A/8710dc84be9b3ccffeec8989014510faa24c2ff9 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/exceptions.o.d" -o ${OBJECTDIR}/_ext/986139933/exceptions.o ../src/config/CFDtest2_J18A/exceptions.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/startup_xc32.o: ../src/config/CFDtest2_J18A/startup_xc32.c  .generated_files/flags/CFDtest2_J18A/647c3146107abe80a508914088f778e5bf1a2181 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/startup_xc32.o: ../src/config/CFDtest2_J18A/startup_xc32.c  .generated_files/flags/CFDtest2_J18A/d2e87735ec16f32c2f13ece47a537d7b8d1f8688 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/startup_xc32.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/startup_xc32.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/startup_xc32.o.d" -o ${OBJECTDIR}/_ext/986139933/startup_xc32.o ../src/config/CFDtest2_J18A/startup_xc32.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/libc_syscalls.o: ../src/config/CFDtest2_J18A/libc_syscalls.c  .generated_files/flags/CFDtest2_J18A/6fee49501b8cdc0faff12399f9c5eda779d52bc6 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/libc_syscalls.o: ../src/config/CFDtest2_J18A/libc_syscalls.c  .generated_files/flags/CFDtest2_J18A/fbcad00b02cf49068147881f0617fdc1e0e909f5 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/libc_syscalls.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/libc_syscalls.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/libc_syscalls.o.d" -o ${OBJECTDIR}/_ext/986139933/libc_syscalls.o ../src/config/CFDtest2_J18A/libc_syscalls.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/CFDtest2_J18A/e4943d463a10a15144c0b86ee4a1258bc7eebd2 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/CFDtest2_J18A/bc564f106416f563382f38ea36f48aac1af3e61f .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
 else
-${OBJECTDIR}/_ext/1843999635/plib_clock.o: ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c  .generated_files/flags/CFDtest2_J18A/2692cadab6ee1ac1eb774c2600803c15702d68da .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1843999635/plib_clock.o: ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c  .generated_files/flags/CFDtest2_J18A/b910d264243ae6106c335002376bd23603b6e146 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1843999635" 
 	@${RM} ${OBJECTDIR}/_ext/1843999635/plib_clock.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1843999635/plib_clock.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1843999635/plib_clock.o.d" -o ${OBJECTDIR}/_ext/1843999635/plib_clock.o ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1841850149/plib_evsys.o: ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c  .generated_files/flags/CFDtest2_J18A/d5532c1319de4601e4998c6e19743296523a8c40 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1841850149/plib_evsys.o: ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c  .generated_files/flags/CFDtest2_J18A/fc2e17f57cc087e1bc3fa732029ce4b041f64506 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1841850149" 
 	@${RM} ${OBJECTDIR}/_ext/1841850149/plib_evsys.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1841850149/plib_evsys.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1841850149/plib_evsys.o.d" -o ${OBJECTDIR}/_ext/1841850149/plib_evsys.o ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/633589923/plib_nvic.o: ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c  .generated_files/flags/CFDtest2_J18A/25dafc9d6788394bc1bbc5cc98c2546d99f919c7 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/633589923/plib_nvic.o: ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c  .generated_files/flags/CFDtest2_J18A/12f8453b45ab6513be34d7376fabbd1f6e8b3ecf .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/633589923" 
 	@${RM} ${OBJECTDIR}/_ext/633589923/plib_nvic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/633589923/plib_nvic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/633589923/plib_nvic.o.d" -o ${OBJECTDIR}/_ext/633589923/plib_nvic.o ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o: ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c  .generated_files/flags/CFDtest2_J18A/cf64b974ee22096b89934516eddd345b9dbac6f1 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o: ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c  .generated_files/flags/CFDtest2_J18A/f0d006d35a7ae60bc10110075ccb3e60964cef26 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1100060625" 
 	@${RM} ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o.d" -o ${OBJECTDIR}/_ext/1100060625/plib_nvmctrl.o ../src/config/CFDtest2_J18A/peripheral/nvmctrl/plib_nvmctrl.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/633643074/plib_port.o: ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c  .generated_files/flags/CFDtest2_J18A/a5d7fa2f5caaeb32310ba0e2efcf88e2eae532e .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/633643074/plib_port.o: ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c  .generated_files/flags/CFDtest2_J18A/30781b983567220118e53592a2ad59c21ce47268 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/633643074" 
 	@${RM} ${OBJECTDIR}/_ext/633643074/plib_port.o.d 
 	@${RM} ${OBJECTDIR}/_ext/633643074/plib_port.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/633643074/plib_port.o.d" -o ${OBJECTDIR}/_ext/633643074/plib_port.o ../src/config/CFDtest2_J18A/peripheral/port/plib_port.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o: ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c  .generated_files/flags/CFDtest2_J18A/88b7bfa7efc8f5fda9fb49f5ac4522a9f170b94f .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o: ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c  .generated_files/flags/CFDtest2_J18A/8199798db29bdb274e30a4694fe564bcca8fe592 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1978124120" 
 	@${RM} ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o.d" -o ${OBJECTDIR}/_ext/1978124120/plib_sercom4_usart.o ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/865585527/plib_systick.o: ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c  .generated_files/flags/CFDtest2_J18A/2b86d8805280b41aeafd80bc39e09998ff78f2b6 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/865585527/plib_systick.o: ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c  .generated_files/flags/CFDtest2_J18A/ba0ea44640c1ae11135cd5cf28eedc33acd235d1 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/865585527" 
 	@${RM} ${OBJECTDIR}/_ext/865585527/plib_systick.o.d 
 	@${RM} ${OBJECTDIR}/_ext/865585527/plib_systick.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/865585527/plib_systick.o.d" -o ${OBJECTDIR}/_ext/865585527/plib_systick.o ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1579996951/xc32_monitor.o: ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c  .generated_files/flags/CFDtest2_J18A/61f1cdff17cc9281760b02844b71483f6b95a952 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1849617808/plib_tc0.o: ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c  .generated_files/flags/CFDtest2_J18A/abbf50d29585e8427ceb8066fdb454e266e454c6 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+	@${MKDIR} "${OBJECTDIR}/_ext/1849617808" 
+	@${RM} ${OBJECTDIR}/_ext/1849617808/plib_tc0.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1849617808/plib_tc0.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1849617808/plib_tc0.o.d" -o ${OBJECTDIR}/_ext/1849617808/plib_tc0.o ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/_ext/1503577101/plib_tcc0.o: ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c  .generated_files/flags/CFDtest2_J18A/efc5649aa78eb8de9a129e7ba005a19c5fc36cce .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+	@${MKDIR} "${OBJECTDIR}/_ext/1503577101" 
+	@${RM} ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1503577101/plib_tcc0.o.d" -o ${OBJECTDIR}/_ext/1503577101/plib_tcc0.o ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/_ext/1579996951/xc32_monitor.o: ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c  .generated_files/flags/CFDtest2_J18A/575834480c5e4628abadd824363ffe6614d6f883 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1579996951" 
 	@${RM} ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1579996951/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/1579996951/xc32_monitor.o ../src/config/CFDtest2_J18A/stdio/xc32_monitor.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/initialization.o: ../src/config/CFDtest2_J18A/initialization.c  .generated_files/flags/CFDtest2_J18A/baff5425469dcc1b26ac96751496b78a1fcb0203 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/initialization.o: ../src/config/CFDtest2_J18A/initialization.c  .generated_files/flags/CFDtest2_J18A/d4615ea02407ed7f01f85870e7f9faf5cc3a99d4 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/initialization.o.d" -o ${OBJECTDIR}/_ext/986139933/initialization.o ../src/config/CFDtest2_J18A/initialization.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/interrupts.o: ../src/config/CFDtest2_J18A/interrupts.c  .generated_files/flags/CFDtest2_J18A/3c87634b4489785a12626e08b18931576d5409aa .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/interrupts.o: ../src/config/CFDtest2_J18A/interrupts.c  .generated_files/flags/CFDtest2_J18A/6bff9f94add7d3306ce22184cbdd9f4cc73aae76 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/interrupts.o.d" -o ${OBJECTDIR}/_ext/986139933/interrupts.o ../src/config/CFDtest2_J18A/interrupts.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/exceptions.o: ../src/config/CFDtest2_J18A/exceptions.c  .generated_files/flags/CFDtest2_J18A/f0231fde2fbc5e2213244ff286f4bf914e34ce79 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/exceptions.o: ../src/config/CFDtest2_J18A/exceptions.c  .generated_files/flags/CFDtest2_J18A/a7ba79c3455427ff3f8b6b7c70683826b7702d8d .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/exceptions.o.d" -o ${OBJECTDIR}/_ext/986139933/exceptions.o ../src/config/CFDtest2_J18A/exceptions.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/startup_xc32.o: ../src/config/CFDtest2_J18A/startup_xc32.c  .generated_files/flags/CFDtest2_J18A/9b405ab09f9efa62252da285191a68f09bf4e1db .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/startup_xc32.o: ../src/config/CFDtest2_J18A/startup_xc32.c  .generated_files/flags/CFDtest2_J18A/96074aa7a8c9cb32660397f0cf1633eb503de6d4 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/startup_xc32.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/startup_xc32.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/startup_xc32.o.d" -o ${OBJECTDIR}/_ext/986139933/startup_xc32.o ../src/config/CFDtest2_J18A/startup_xc32.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/986139933/libc_syscalls.o: ../src/config/CFDtest2_J18A/libc_syscalls.c  .generated_files/flags/CFDtest2_J18A/b4b6163d2b96ba5e78879cefd58800c35cdc4896 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/986139933/libc_syscalls.o: ../src/config/CFDtest2_J18A/libc_syscalls.c  .generated_files/flags/CFDtest2_J18A/504f301268bbde33ed9a13d0f7beb776e856303a .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/986139933" 
 	@${RM} ${OBJECTDIR}/_ext/986139933/libc_syscalls.o.d 
 	@${RM} ${OBJECTDIR}/_ext/986139933/libc_syscalls.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/CFDtest2_J18A" -I"../src/packs/ATSAMC21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/986139933/libc_syscalls.o.d" -o ${OBJECTDIR}/_ext/986139933/libc_syscalls.o ../src/config/CFDtest2_J18A/libc_syscalls.c    -DXPRJ_CFDtest2_J18A=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samc21" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/CFDtest2_J18A/8626db5040991df5a0645b504e765e9e8c88ab73 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/CFDtest2_J18A/952c635019f8425c918048b93afe9bdf09af7b02 .generated_files/flags/CFDtest2_J18A/6f44aae735c6c399fa84b88728b967b48be615b6
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 

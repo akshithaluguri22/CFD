@@ -92,12 +92,16 @@ build/CFDtest2_J18A/production/_ext/986139933/interrupts.o: \
  ../src/config/CFDtest2_J18A/toolchain_specifics.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
  ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.h \
+ ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.h \
+ ../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc_common.h \
  ../src/config/CFDtest2_J18A/peripheral/port/plib_port.h \
  ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.h \
  ../src/config/CFDtest2_J18A/peripheral/nvic/plib_nvic.h \
  ../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.h \
  ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.h \
- ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom_usart_common.h
+ ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom_usart_common.h \
+ ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.h \
+ ../src/config/CFDtest2_J18A/peripheral/tc/plib_tc_common.h
 
 ../src/config/CFDtest2_J18A/device_vectors.h:
 
@@ -283,6 +287,10 @@ build/CFDtest2_J18A/production/_ext/986139933/interrupts.o: \
 
 ../src/config/CFDtest2_J18A/peripheral/evsys/plib_evsys.h:
 
+../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.h:
+
+../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc_common.h:
+
 ../src/config/CFDtest2_J18A/peripheral/port/plib_port.h:
 
 ../src/config/CFDtest2_J18A/peripheral/clock/plib_clock.h:
@@ -294,3 +302,7 @@ build/CFDtest2_J18A/production/_ext/986139933/interrupts.o: \
 ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom4_usart.h:
 
 ../src/config/CFDtest2_J18A/peripheral/sercom/usart/plib_sercom_usart_common.h:
+
+../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.h:
+
+../src/config/CFDtest2_J18A/peripheral/tc/plib_tc_common.h:

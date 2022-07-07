@@ -43,15 +43,27 @@
 #include "interrupts.h"
 
 
+typedef struct
+{
+    OSCCTRL_CFD_CALLBACK   callback;
+    uintptr_t        context;
+} OSCCTRL_OBJECT;
+
+/* Reference Object created for the OSCCTRL */
+static OSCCTRL_OBJECT oscctrlObj;
+
+
 
 
 static void OSCCTRL_Initialize(void)
 {
     /****************** XOSC Initialization   ********************************/
 
+    /* Selection of the Clock failure detection (CFD) pre scalar */
+    OSCCTRL_REGS->OSCCTRL_CFDPRESC = 1;
 
     /* Configure External Oscillator */
-    OSCCTRL_REGS->OSCCTRL_XOSCCTRL = (uint16_t)(OSCCTRL_XOSCCTRL_STARTUP(0UL) | OSCCTRL_XOSCCTRL_GAIN(2UL) | OSCCTRL_XOSCCTRL_ENABLE_Msk);
+    OSCCTRL_REGS->OSCCTRL_XOSCCTRL = (uint16_t)(OSCCTRL_XOSCCTRL_STARTUP(0UL) | OSCCTRL_XOSCCTRL_GAIN(4UL) | OSCCTRL_XOSCCTRL_CFDEN_Msk | OSCCTRL_XOSCCTRL_ENABLE_Msk);
 
     while((OSCCTRL_REGS->OSCCTRL_STATUS & OSCCTRL_STATUS_XOSCRDY_Msk) != OSCCTRL_STATUS_XOSCRDY_Msk)
     {
@@ -62,7 +74,7 @@ static void OSCCTRL_Initialize(void)
 
 
     /* Selection of the Division Value */
-    OSCCTRL_REGS->OSCCTRL_OSC48MDIV = (uint8_t)OSCCTRL_OSC48MDIV_DIV(3UL);
+    OSCCTRL_REGS->OSCCTRL_OSC48MDIV = (uint8_t)OSCCTRL_OSC48MDIV_DIV(1UL);
 
     while((OSCCTRL_REGS->OSCCTRL_OSC48MSYNCBUSY & OSCCTRL_OSC48MSYNCBUSY_OSC48MDIV_Msk) == OSCCTRL_OSC48MSYNCBUSY_OSC48MDIV_Msk)
     {
@@ -82,42 +94,12 @@ static void OSC32KCTRL_Initialize(void)
     OSC32KCTRL_REGS->OSC32KCTRL_RTCCTRL = OSC32KCTRL_RTCCTRL_RTCSEL(0UL);
 }
 
-static void FDPLL_Initialize(void)
-{
-
-    /****************** DPLL Initialization  *********************************/
-
-    /* Configure DPLL    */
-    OSCCTRL_REGS->OSCCTRL_DPLLCTRLB = OSCCTRL_DPLLCTRLB_FILTER(0UL) | OSCCTRL_DPLLCTRLB_LTIME(0UL)| OSCCTRL_DPLLCTRLB_REFCLK(1UL) | OSCCTRL_DPLLCTRLB_DIV(2);
-
-
-    OSCCTRL_REGS->OSCCTRL_DPLLRATIO = OSCCTRL_DPLLRATIO_LDRFRAC(0UL) | OSCCTRL_DPLLRATIO_LDR(23UL);
-
-    while((OSCCTRL_REGS->OSCCTRL_DPLLSYNCBUSY & OSCCTRL_DPLLSYNCBUSY_DPLLRATIO_Msk) == OSCCTRL_DPLLSYNCBUSY_DPLLRATIO_Msk)
-    {
-        /* Waiting for the synchronization */
-    }
-
-    /* Selection of the DPLL Enable */
-    OSCCTRL_REGS->OSCCTRL_DPLLCTRLA = (uint8_t)(OSCCTRL_DPLLCTRLA_ENABLE_Msk   );
-
-    while((OSCCTRL_REGS->OSCCTRL_DPLLSYNCBUSY & OSCCTRL_DPLLSYNCBUSY_ENABLE_Msk) == OSCCTRL_DPLLSYNCBUSY_ENABLE_Msk )
-    {
-        /* Waiting for the DPLL enable synchronization */
-    }
-
-    while((OSCCTRL_REGS->OSCCTRL_DPLLSTATUS & (OSCCTRL_DPLLSTATUS_LOCK_Msk | OSCCTRL_DPLLSTATUS_CLKRDY_Msk)) !=
-                (OSCCTRL_DPLLSTATUS_LOCK_Msk | OSCCTRL_DPLLSTATUS_CLKRDY_Msk))
-    {
-        /* Waiting for the Ready state */
-    }
-}
 
 
 static void GCLK0_Initialize(void)
 {
 
-    GCLK_REGS->GCLK_GENCTRL[0] = GCLK_GENCTRL_DIV(1UL) | GCLK_GENCTRL_SRC(7UL) | GCLK_GENCTRL_GENEN_Msk;
+    GCLK_REGS->GCLK_GENCTRL[0] = GCLK_GENCTRL_DIV(1UL) | GCLK_GENCTRL_SRC(0UL) | GCLK_GENCTRL_GENEN_Msk;
 
     while((GCLK_REGS->GCLK_SYNCBUSY & GCLK_SYNCBUSY_GENCTRL0_Msk) == GCLK_SYNCBUSY_GENCTRL0_Msk)
     {
@@ -133,7 +115,6 @@ void CLOCK_Initialize (void)
     /* Function to Initialize the 32KHz Oscillators */
     OSC32KCTRL_Initialize();
 
-    FDPLL_Initialize();
     GCLK0_Initialize();
 
 
@@ -144,13 +125,52 @@ void CLOCK_Initialize (void)
     {
         /* Wait for synchronization */
     }
+    /* Selection of the Generator and write Lock for TCC0 TCC1 */
+    GCLK_REGS->GCLK_PCHCTRL[28] = GCLK_PCHCTRL_GEN(0x0UL)  | GCLK_PCHCTRL_CHEN_Msk;
+
+    while ((GCLK_REGS->GCLK_PCHCTRL[28] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
+    {
+        /* Wait for synchronization */
+    }
+    /* Selection of the Generator and write Lock for TC0 TC1 */
+    GCLK_REGS->GCLK_PCHCTRL[30] = GCLK_PCHCTRL_GEN(0x0UL)  | GCLK_PCHCTRL_CHEN_Msk;
+
+    while ((GCLK_REGS->GCLK_PCHCTRL[30] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
+    {
+        /* Wait for synchronization */
+    }
 
 
 
     /* Configure the APBC Bridge Clocks */
-    MCLK_REGS->MCLK_APBCMASK = 0x20U;
+    MCLK_REGS->MCLK_APBCMASK = 0x1220U;
 
 
+    /* Enabling the Clock Fail Interrupt  */
+    OSCCTRL_REGS->OSCCTRL_INTENSET = OSCCTRL_INTENSET_XOSCFAIL_Msk;
+
+}
+
+
+void OSCCTRL_CallbackRegister(OSCCTRL_CFD_CALLBACK callback, uintptr_t context)
+{
+    oscctrlObj.callback = callback;
+    oscctrlObj.context = context;
+}
+
+void OSCCTRL_InterruptHandler(void)
+{
+    /* Checking for the Clock Fail status */
+    if ((OSCCTRL_REGS->OSCCTRL_STATUS & OSCCTRL_STATUS_XOSCFAIL_Msk) == OSCCTRL_STATUS_XOSCFAIL_Msk)
+    {
+        /* Clearing the XOSC Fail Interrupt Flag */
+        OSCCTRL_REGS->OSCCTRL_INTFLAG = OSCCTRL_INTFLAG_XOSCFAIL_Msk;
+
+        if (oscctrlObj.callback != NULL)
+        {
+            oscctrlObj.callback(oscctrlObj.context);
+        }
+    }
 }
 
 

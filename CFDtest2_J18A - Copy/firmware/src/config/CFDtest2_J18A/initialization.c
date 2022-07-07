@@ -136,8 +136,12 @@ void SYS_Initialize ( void* data )
 
     EVSYS_Initialize();
 
+    TCC0_CompareInitialize();
+
 	SYSTICK_TimerInitialize();
     SERCOM4_USART_Initialize();
+
+    TC0_CompareInitialize();
 
 
 

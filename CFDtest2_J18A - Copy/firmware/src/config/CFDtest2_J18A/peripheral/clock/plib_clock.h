@@ -133,6 +133,93 @@ this interface.
 void CLOCK_Initialize (void);
 
 
+// *****************************************************************************
+/* External Oscillator Callback Function Pointer Type.
+
+  Summary:
+    Defines the data type and function signature for the External Oscillator
+    callback function.
+
+  Description:
+    This data type defines the function signature for the External Oscillator
+    callback function. The External Oscillator will call back the client's
+    function with this signature when it needs to notify the oscillator failure.
+    The context parameter is an application defined  data object specified
+    at the time of registering the callback function and is returned in the
+    context parameter of the callback function.
+
+  Precondition:
+    The CLOCK_Initialize() initialize function should have been called. The
+    callback function should have been registered through
+    OSCCTRL_CallbackRegister() function.
+
+  Parameters:
+    context  - Allows the caller to provide a context value (usually a pointer
+    to the callers context for multi-instance clients).
+
+  Returns:
+    None.
+
+  Example:
+    <code>
+
+    void MyOscillatorCallback (uintptr_t context )
+    {
+
+    }
+
+    Register the callback function. Specify the context as NULL.
+    OSCCTRL_CallbackRegister(MyOscillatorCallback, NULL);
+
+    </code>
+
+  Remarks:
+    None.
+*/
+
+typedef void (*OSCCTRL_CFD_CALLBACK)(uintptr_t context);
+
+// *****************************************************************************
+/* Function:
+    void OSCCTRL_CallbackRegister (uintptr_t context);
+
+  Summary:
+    Register the function to be called when an External Oscillator or DPLL event
+    is generated.
+
+  Description:
+    This function registers the callback function to be called when the External
+    Oscillator has failed.
+
+  Precondition:
+    The External Oscillator and/or should have been configured in MHC and
+    enabled.
+
+  Parameters:
+    callback - Pointer to the OSCCTRL_CFD_CALLBACK type of function that will be
+    called when the oscillator failed.
+
+    context - Context value to be passed into the callback function when it
+    called.
+
+  Returns:
+    None.
+
+  Example:
+    <code>
+
+    Refer to the code example provided in the description of the
+    OSCCTRL_CFD_CALLBACK function pointer type.
+
+    </code>
+
+  Remarks:
+    None.
+*/
+
+void OSCCTRL_CallbackRegister (OSCCTRL_CFD_CALLBACK callback, uintptr_t context);
+
+
 
 
 #ifdef __cplusplus // Provide C++ Compatibility

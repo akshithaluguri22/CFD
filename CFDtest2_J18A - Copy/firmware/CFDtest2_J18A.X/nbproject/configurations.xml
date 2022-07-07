@@ -31,6 +31,14 @@
             <logicalFolder name="f7" displayName="systick" projectFiles="true">
               <itemPath>../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="f9" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/CFDtest2_J18A/peripheral/tc/plib_tc_common.h</itemPath>
+              <itemPath>../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f8" displayName="tcc" projectFiles="true">
+              <itemPath>../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc_common.h</itemPath>
+              <itemPath>../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.h</itemPath>
+            </logicalFolder>
           </logicalFolder>
           <itemPath>../src/config/CFDtest2_J18A/device.h</itemPath>
           <itemPath>../src/config/CFDtest2_J18A/device_cache.h</itemPath>
@@ -184,6 +192,12 @@
             <logicalFolder name="f7" displayName="systick" projectFiles="true">
               <itemPath>../src/config/CFDtest2_J18A/peripheral/systick/plib_systick.c</itemPath>
             </logicalFolder>
+            <logicalFolder name="f9" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/CFDtest2_J18A/peripheral/tc/plib_tc0.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f8" displayName="tcc" projectFiles="true">
+              <itemPath>../src/config/CFDtest2_J18A/peripheral/tcc/plib_tcc0.c</itemPath>
+            </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/CFDtest2_J18A/stdio/xc32_monitor.c</itemPath>
@@ -210,6 +224,8 @@
         <itemPath>../src/config/CFDtest2_J18A/CFDtest2_J18A.mhc/project.yml</itemPath>
         <itemPath>../src/config/CFDtest2_J18A/CFDtest2_J18A.mhc/sercom4.yml</itemPath>
         <itemPath>../src/config/CFDtest2_J18A/CFDtest2_J18A.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/CFDtest2_J18A/CFDtest2_J18A.mhc/tc0.yml</itemPath>
+        <itemPath>../src/config/CFDtest2_J18A/CFDtest2_J18A.mhc/tcc0.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/CFDtest2_J18A/harmony-manifest-success.yml</itemPath>

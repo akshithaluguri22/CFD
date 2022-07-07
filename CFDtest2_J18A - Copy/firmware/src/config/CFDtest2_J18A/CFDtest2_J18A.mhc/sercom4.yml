@@ -10,7 +10,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom4, value: '232'}
+        attributes: {id: sercom4, value: '114'}
   - type: Comment
     attributes: {id: I2C_BAUD_ERROR_COMMENT}
     children:
@@ -19,14 +19,15 @@ children:
       - type: String
         attributes: {id: text}
         children:
-        - {type: Value, value: '**** Achievable I2C Clock Frequency = 102778Hz'}
+        - {type: Value, value: '**** Reference Clock Frequency too low for generating
+            the desired I2C Clock '}
   - type: Integer
     attributes: {id: SPI_BAUD_REG_VALUE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom4, value: '23'}
+        attributes: {id: sercom4, value: '11'}
   - type: Comment
     attributes: {id: USART_BAUD_ERROR_COMMENT}
     children:
@@ -49,7 +50,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom4, value: '65326'}
+        attributes: {id: sercom4, value: '65116'}
   - type: KeyValueSet
     attributes: {id: USART_FORM}
     children:

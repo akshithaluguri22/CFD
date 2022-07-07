@@ -33,22 +33,30 @@
 // Section: Main Entry Point
 // *****************************************************************************
 // *****************************************************************************
-
+//void timerfn(){
+//SERCOM4_USART_Write("S",1 );
+//}
 int main ( void )
 {
     /* Initialize all modules */
     SYS_Initialize ( NULL );
-
+//    TCC1_CompareStart();
+    TCC0_CompareStart();
+    TC0_CompareStart();
+//    SYSTICK_TimerCallbackSet (timerfn,0);
     while ( true )
     {int i=0;
         /* Maintain state machines of all polled MPLAB Harmony modules. */
         SYS_Tasks ( );
-    uint8_t buffer1[]="sending\n\r";
-    
+//        SYSTICK_TimerPeriodSet (1000 );
+//        SYSTICK_TimerStart ();
+//        if(SYSTICK_TimerPeriodGet()==0)SYSTICK_TimerRestart ();
+//    uint8_t buffer1[]="S";
+    SERCOM4_USART_Write("S",1 );
 //    SERCOM3_USART_Write(&buffer1[0], sizeof(buffer1) );
-    SERCOM4_USART_Write(&buffer1[0], sizeof(buffer1) );
-    SYSTICK_DelayMs (1000);
-    for(i=0;i<9999999;i++);
+//SERCOM4_USART_Write("S",1 );
+//    SYSTICK_DelayMs(0xffff);
+    for(i=0;i<755555;i++);
     }
 
     /* Execution should not come here during normal operation */
